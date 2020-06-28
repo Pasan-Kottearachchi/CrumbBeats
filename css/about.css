@@ -8,6 +8,11 @@ html {
     font-size: 10px;
     font-family: 'Montserrat', sans-serif;
     scroll-behavior: smooth;
+    background-image: url("../img/bgimg5.jpeg");
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    z-index: 1;
 }
 
 a {

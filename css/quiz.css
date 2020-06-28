@@ -52,23 +52,23 @@ p{
 .section-title span{
     color: crimson;
 }
-.cta{
-    display: inline-block;
-    padding: 10px 30px;
-    color: white;
-    background-color: transparent;
-    border: 2px solid crimson;
-    font-size: 2rem;
-    text-transform: uppercase;
-    letter-spacing: .1rem;
-    margin-top: 30px;
-    transition: .3s ease;
-    transition-property: background-color,color;
-}
-.cta:hover{
-    color: white;
-    background-color: crimson;
-}
+/*.cta{*/
+/*    display: inline-block;*/
+/*    padding: 10px 30px;*/
+/*    color: white;*/
+/*    background-color: transparent;*/
+/*    border: 2px solid crimson;*/
+/*    font-size: 2rem;*/
+/*    text-transform: uppercase;*/
+/*    letter-spacing: .1rem;*/
+/*    margin-top: 30px;*/
+/*    transition: .3s ease;*/
+/*    transition-property: background-color,color;*/
+/*}*/
+/*.cta:hover{*/
+/*    color: white;*/
+/*    background-color: crimson;*/
+/*}*/
 
 .brand h1{
     font-size: 3rem;
@@ -126,7 +126,9 @@ button {
     border-radius: 3px;
     padding: 20px;
     cursor: pointer;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+
 }
 
 

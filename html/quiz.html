@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="../css/header.css">
+    <link rel="stylesheet" type="text/css" href="../css/quiz.css">
+    <meta charset="UTF-8">
+    <title>Quiz</title>
+</head>
+<body>
+<!-- Header -->
+<section id="header">
+    <div class="header container">
+        <div class="nav-bar">
+            <div class="brand">
+                <a href="index.html"><h1><span>C</span>rumb <span>B</span>eats <span>Q</span>uiz</h1></a>
+            </div>
+            <div class="nav-list">
+                <div class="hamburger">
+                    <div class="bar"></div>
+                </div>
+                <ul>
+                    <li><a href="../index.html" data-after="Home">Home</a></li>
+                    <li><a href="quiz.html" data-after="Quiz">Quiz</a></li>
+                    <li><a href="../index.html" data-after="About">About</a></li>
+                    <li><a href="../index.html" data-after="Contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Header -->
+<section id="quizSection">
+    <button class="home-button" onclick="window.location.href = '../index.html';">Back to Home page</button>
+    <div class="quiz-container">
+        <div id="quiz"></div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <button id="previous">Previous</button>
+    <button id="next">Next</button>
+    <button id="submit">Submit</button>
+    <div id="results"></div>
+</section>
+
+<script src="../js/quiz.js"></script>
+<script src="../js/script.js"></script>
+
+</body>
+</html>

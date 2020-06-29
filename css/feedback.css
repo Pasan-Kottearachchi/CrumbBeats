@@ -121,7 +121,7 @@ p{
     height: 4px;
     width: 50px;
     border-radius: 2px;
-    background-color: #2ecc71;
+    background-color: crimson;
 }
 
 .field{
@@ -147,9 +147,9 @@ textarea{
 .btn{
     width: 100%;
     padding: 0.5rem 1rem;
-    background-color: #2ecc71;
+    background-color: #e01b53;
     color: #fff;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     border: none;
     outline: none;
     cursor: pointer;
@@ -158,7 +158,7 @@ textarea{
 }
 
 .btn:hover{
-    background-color: #27ae60;
+    background-color: crimson;
 }
 
 .field:focus{
@@ -167,10 +167,7 @@ textarea{
 }
 
 @media screen and (max-width: 880px){
-    .contact-box{
+    .contact-box {
         grid-template-columns: 1fr;
     }
-    /*.left{*/
-    /*    height: 200px;*/
-    /*}*/
 }

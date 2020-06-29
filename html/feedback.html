@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../css/header.css">
+    <link rel="stylesheet" type="text/css" href="../css/feedback.css">
+    <link rel="stylesheet" type="text/css" href="../css/footer.css">
+
+    <title>Crumb-Beats</title>
+</head>
+<body>
+<!-- Header -->
+
+<section id="header">
+    <div class="header container">
+        <div class="nav-bar">
+            <div class="brand">
+                <a href="../index.html"><h1><span>C</span>rumb <span>B</span>eats</h1></a>
+            </div>
+            <div class="nav-list">
+                <div class="hamburger"><div class="bar"></div></div>
+                <ul>
+                    <li><a href="../index.html" data-after="Home">Home</a></li>
+                    <li><a onClick="window.location.href='../index.html#services';" data-after="Quotes">Quotes</a></li>
+                    <li><a href="quiz.html" data-after="Quiz">Quiz</a></li>
+                    <li><a href="about.html" data-after="About">About</a></li>
+                    <li><a href="contact.html" data-after="Contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- End Header -->
+
+
+<!--Feedback Section-->
+<form name="myform" method="post" onsubmit="return validateForm()">
+<div class="feedback-container">
+    <div class="contact-box">
+<!--        <div class="left"></div>-->
+        <div class="right">
+            <h2>Contact Us</h2>
+            <input type="text" class="field" placeholder="Your Name" id="cname" value="" required>
+            <input type="text" class="field" placeholder="Your Email" id="mail" value="" required>
+            <input type="text" class="field" placeholder="Phone" id="number" value="" required>
+            <textarea placeholder="Message" class="field" id="comment" required></textarea>
+            <button class="btn">Send</button>
+        </div>
+    </div>
+</div>
+<!--End of Feedback Section-->
+
+
+<!--Footer Section-->
+<section id="footer">
+    <div class="footer container">
+        <div class="brand"><h1><span>C</span>rumb <span>B</span>eats</h1></div>
+        <h2>Let the Music Speak</h2>
+        <div class="social-icon">
+            <div class="social-item">
+                <a href="https://www.facebook.com/pasan.sandaru" target="_blank"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png"/></a>
+            </div>
+            <div class="social-item">
+                <a href="https://www.instagram.com/pasan_kottearachchi/?hl=af" target="_blank"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png"/></a>
+            </div>
+            <div class="social-item">
+                <a href="https://www.youtube.com/channel/UCPC9Mqorm-C0jgxYjjOTxVg" target="_blank"><img src="https://img.icons8.com/bubbles/100/000000/youtube.png"/></a>
+            </div>
+            <div class="social-item">
+                <a href="https://lk.linkedin.com/in/pasan-kottearachchi-63970a198" target="_blank"><img src="https://img.icons8.com/bubbles/100/000000/linkedin.png"/></a>
+            </div>
+        </div>
+        <p>Copyright © 2020 </p>
+        <p>Pasan Sandaru Kottearachchi</p>
+        <p> All rights reserved</p>
+    </div>
+</section>
+</form>
+<!-- End Footer -->
+<script src="../js/script.js"></script>
+<script src="../js/feedback.js"></script>
+</body>
+</html>

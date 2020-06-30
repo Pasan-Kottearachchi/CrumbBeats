@@ -182,6 +182,7 @@ p{
     .fd{
         height: 86vh;
         padding-top: 30vh;
+        
     }
     .wrapper {
         display: grid;
@@ -206,5 +207,12 @@ p{
         text-align: left;
     }
 
+}
+
+@media only screen and (min-width: 1200px) {
+    .fd{
+        margin-top: 10%;
+        padding-top: 0;
+    }
 }
 /*end of form*/

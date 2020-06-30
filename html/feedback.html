@@ -52,7 +52,7 @@
 
         <!-- CONTACT FORM -->
         <div class="contact">
-            <form id="contact-form" method="post" onsubmit=" return validateForm()">
+            <form id="contact-form" onsubmit=" return validateForm()">
 
                 <p>
                     <label>First Name</label>
@@ -61,7 +61,7 @@
 
                 <p>
                     <label>Last Name</label>
-                    <input type="text" name="name" id="cname2">
+                    <input type="text" name="name" id="cname2" required>
                 </p>
 
                 <p>
@@ -71,12 +71,12 @@
 
                 <p>
                     <label>Phone Number</label>
-                    <input type="text" name="phone" id="number">
+                    <input type="text" name="phone" id="number" required>
                 </p>
 
                 <p class="full">
                     <label>Message</label>
-                    <textarea name="message" rows="5" id="comment"></textarea>
+                    <textarea name="message" rows="5" id="comment" required></textarea>
                 </p>
 
                 <p class="full">

@@ -2,15 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../css/fd.css">
     <link rel="stylesheet" type="text/css" href="../css/header.css">
-    <link rel="stylesheet" type="text/css" href="../css/feedback.css">
     <link rel="stylesheet" type="text/css" href="../css/footer.css">
-
     <title>Crumb-Beats</title>
 </head>
 <body>
 <!-- Header -->
-
 <section id="header">
     <div class="header container">
         <div class="nav-bar">
@@ -18,12 +16,14 @@
                 <a href="../index.html"><h1><span>C</span>rumb <span>B</span>eats</h1></a>
             </div>
             <div class="nav-list">
-                <div class="hamburger"><div class="bar"></div></div>
+                <div class="hamburger">
+                    <div class="bar"></div>
+                </div>
                 <ul>
                     <li><a href="../index.html" data-after="Home">Home</a></li>
                     <li><a onClick="window.location.href='../index.html#services';" data-after="Quotes">Quotes</a></li>
                     <li><a href="../html/quiz.html" data-after="Quiz">Quiz</a></li>
-                    <li><a href=../html/"about.html" data-after="About">About</a></li>
+                    <li><a href="../html/about.html" data-after="About">About</a></li>
                     <li><a href="../html/contact.html" data-after="Contact">Contact</a></li>
                     <li><a href="../html/feedback.html" data-after="Feedback">Feedback</a></li>
                 </ul>
@@ -31,29 +31,70 @@
         </div>
     </div>
 </section>
-
 <!-- End Header -->
 
+<!--form-->
+<div class="fd">
 
-<!--Feedback Section-->
-<form name="myform" method="post" onsubmit="return validateForm()">
-<div class="feedback-container">
-    <div class="contact-box">
-<!--        <div class="left"></div>-->
-        <div class="right">
-            <h2>Contact Us</h2>
-            <input type="text" class="field" placeholder="Your Name" id="cname" value="" required>
-            <input type="text" class="field" placeholder="Your Email" id="mail" value="" required>
-            <input type="text" class="field" placeholder="Phone" id="number" value="" required>
-            <textarea placeholder="Message" class="field" id="comment" required></textarea>
-            <button class="btn">Send</button>
+    <h1 class="heading"><span>F</span>eedback  <span>F</span>orm</h1>
+
+    <div class="wrapper">
+
+        <!-- COMPANY INFORMATION -->
+        <div class="company-info">
+            <ul>
+                <li> 44 Main Street</li><br>
+                <li> (555) 555-5555</li><br>
+                <li> crumbbeats@gmail.com</li><br>
+            </ul>
         </div>
+        <!-- End .company-info -->
+
+        <!-- CONTACT FORM -->
+        <div class="contact">
+            <form id="contact-form" method="post" onsubmit=" return validateForm()">
+
+                <p>
+                    <label>First Name</label>
+                    <input type="text" name="name" id="cname1" required>
+                </p>
+
+                <p>
+                    <label>Last Name</label>
+                    <input type="text" name="name" id="cname2">
+                </p>
+
+                <p>
+                    <label>E-mail Address</label>
+                    <input type="email" name="email" id="mail" required>
+                </p>
+
+                <p>
+                    <label>Phone Number</label>
+                    <input type="text" name="phone" id="number">
+                </p>
+
+                <p class="full">
+                    <label>Message</label>
+                    <textarea name="message" rows="5" id="comment"></textarea>
+                </p>
+
+                <p class="full">
+                    <button type="submit">Submit</button>
+                </p>
+
+            </form>
+            <!-- End #contact-form -->
+        </div>
+        <!-- End .contact -->
+
     </div>
+    <!-- End .wrapper -->
 </div>
-<!--End of Feedback Section-->
+<!-- End .container -->
 
+<!--End of form -->
 
-<!--Footer Section-->
 <section id="footer">
     <div class="footer container">
         <div class="brand"><h1><span>C</span>rumb <span>B</span>eats</h1></div>
@@ -77,8 +118,6 @@
         <p> All rights reserved</p>
     </div>
 </section>
-</form>
-<!-- End Footer -->
 <script src="../js/script.js"></script>
 <script src="../js/feedback.js"></script>
 </body>
